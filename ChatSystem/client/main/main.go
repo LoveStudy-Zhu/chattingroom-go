@@ -1,12 +1,14 @@
 package main
 
 import (
+	"ChatSystem/client/process"
 	"fmt"
 	"os"
 )
 
 var userId int
 var passWord string
+var useName string
 
 func main()  {
 	var key int
@@ -22,10 +24,28 @@ func main()  {
 		switch key {
 		case 1:
 			fmt.Println("登录聊天室")
-			loop = false
+			fmt.Println("请输入用户id:")
+			fmt.Scanf("%d",&userId)
+			fmt.Println("请输入用户密码:")
+			fmt.Scanf("%s",&passWord)
+			//创建一个userProcess的实例
+			up := &process.UserProcess{}
+			up.Login(userId,passWord)
+
+			//loop = false
 		case 2:
 			fmt.Println("注册用户")
-			loop =false
+			fmt.Println("请输入用户id:")
+			fmt.Scanf("%d\n",&userId)
+			fmt.Println("请输入用户密码:")
+			fmt.Scanf("%s\n",&passWord)
+			fmt.Println("请输入用户名称:")
+			fmt.Scanf("%s\n",&useName)
+
+			up := &process.UserProcess{}
+			up.Register(userId,passWord,useName)
+
+			//loop =false
 		case 3:
 			fmt.Println("退出系统")
 			//loop =false
@@ -35,14 +55,4 @@ func main()  {
 		}
 	}
 
-	if key==1{
-		fmt.Println("请输入用户id:")
-		fmt.Scanf("%d",&userId)
-		fmt.Println("请输入用户密码:")
-		fmt.Scanf("%s",&passWord)
-		err:=login(userId,passWord)
-		if err !=nil {
-		}else {
-		}
-	}
 }

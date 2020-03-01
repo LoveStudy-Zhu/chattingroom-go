@@ -29,7 +29,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,20 +39,20 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/message" />
+      <recent name="$PROJECT_DIR$/client/utils" />
+      <recent name="$PROJECT_DIR$/server/main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/utils" />
+      <recent name="$PROJECT_DIR$/client/main" />
+      <recent name="$PROJECT_DIR$/server/process" />
+      <recent name="$PROJECT_DIR$/server/model" />
       <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="ChatSystem" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ChatSystem" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -60,17 +60,49 @@
       <filePath value="$PROJECT_DIR$/server/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ChatSystem" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/client/main.go" />
+      <filePath value="$PROJECT_DIR$/server/main/main.go" />
+      <package value="ChatSystem" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ChatSystem" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/client/main/main.go" />
+      <package value="ChatSystem" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ChatSystem" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common/message/main.go" />
+      <package value="ChatSystem" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build userProcess.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ChatSystem" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/client/process/userProcess.go" />
+      <package value="ChatSystem" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build userProcess.go" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -94,33 +126,41 @@
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="439" y="0" key="#go_build_main.go/0.0.1366.725@0.0.1366.725" timestamp="1582875327575" />
-    <state width="1320" height="218" key="GridCell.Tab.0.bottom" timestamp="1582895892854">
+    <state x="428" y="0" key="#go_build_main.go_(5)" timestamp="1582946938786">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="218" key="GridCell.Tab.0.bottom/0.0.1366.725@0.0.1366.725" timestamp="1582895892854" />
-    <state width="1320" height="218" key="GridCell.Tab.0.center" timestamp="1582895892853">
+    <state x="428" y="0" key="#go_build_main.go_(5)/0.0.1366.725@0.0.1366.725" timestamp="1582946938786" />
+    <state x="428" y="0" key="#go_build_userProcess.go" timestamp="1582946994956">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="218" key="GridCell.Tab.0.center/0.0.1366.725@0.0.1366.725" timestamp="1582895892853" />
-    <state width="1320" height="218" key="GridCell.Tab.0.left" timestamp="1582895892853">
+    <state x="428" y="0" key="#go_build_userProcess.go/0.0.1366.725@0.0.1366.725" timestamp="1582946994956" />
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom" timestamp="1583062755378">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="218" key="GridCell.Tab.0.left/0.0.1366.725@0.0.1366.725" timestamp="1582895892853" />
-    <state width="1320" height="218" key="GridCell.Tab.0.right" timestamp="1582895892853">
+    <state width="1320" height="131" key="GridCell.Tab.0.bottom/0.0.1366.725@0.0.1366.725" timestamp="1583062755378" />
+    <state width="1320" height="131" key="GridCell.Tab.0.center" timestamp="1583062755378">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="218" key="GridCell.Tab.0.right/0.0.1366.725@0.0.1366.725" timestamp="1582895892853" />
+    <state width="1320" height="131" key="GridCell.Tab.0.center/0.0.1366.725@0.0.1366.725" timestamp="1583062755378" />
+    <state width="1320" height="131" key="GridCell.Tab.0.left" timestamp="1583062755378">
+      <screen x="0" y="0" width="1366" height="725" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.left/0.0.1366.725@0.0.1366.725" timestamp="1583062755378" />
+    <state width="1320" height="131" key="GridCell.Tab.0.right" timestamp="1583062755378">
+      <screen x="0" y="0" width="1366" height="725" />
+    </state>
+    <state width="1320" height="131" key="GridCell.Tab.0.right/0.0.1366.725@0.0.1366.725" timestamp="1583062755378" />
     <state x="221" y="0" key="SettingsEditor" timestamp="1582875166285">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="221" y="0" key="SettingsEditor/0.0.1366.725@0.0.1366.725" timestamp="1582875166285" />
-    <state x="361" y="0" width="643" height="725" key="find.popup" timestamp="1582895412842">
+    <state x="418" y="0" width="763" height="725" key="find.popup" timestamp="1583062543114">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="361" y="0" width="643" height="725" key="find.popup/0.0.1366.725@0.0.1366.725" timestamp="1582895412842" />
-    <state x="346" y="46" width="670" height="58" key="search.everywhere.popup" timestamp="1582875500036">
+    <state x="418" y="0" width="763" height="725" key="find.popup/0.0.1366.725@0.0.1366.725" timestamp="1583062543114" />
+    <state x="346" y="46" width="672" height="160" key="search.everywhere.popup" timestamp="1582946548318">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="346" y="46" width="670" height="58" key="search.everywhere.popup/0.0.1366.725@0.0.1366.725" timestamp="1582875500036" />
+    <state x="346" y="46" width="672" height="160" key="search.everywhere.popup/0.0.1366.725@0.0.1366.725" timestamp="1582946548318" />
   </component>
 </project>
